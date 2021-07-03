@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="3" name="Failed suite [Live project]" parallel="tests">
+  <test thread-count="3" name="verifying Clients Window(failed)" parallel="tests">
+    <classes>
+      <class name="ExecuteClasses.ExecuteClient">
+        <methods>
+          <include name="executeVerifySearchingFunctionality" invocation-numbers="0 1 2"/>
+          <include name="closeBrowser"/>
+          <include name="launchBrowser"/>
+          <include name="launchBrowser"/>
+          <include name="executeVerifyclientsSearchName"/>
+        </methods>
+      </class> <!-- ExecuteClasses.ExecuteClient -->
+    </classes>
+  </test> <!-- verifying Clients Window(failed) -->
+  <test thread-count="3" name="Verifying Login function(failed)" parallel="tests">
+    <classes>
+      <class name="ExecuteClasses.ExecuteWorkers">
+        <methods>
+          <include name="executeVerifyWorkerName"/>
+          <include name="closeBrowser"/>
+          <include name="launchBrowser"/>
+          <include name="launchBrowser"/>
+          <include name="createNewWorker"/>
+        </methods>
+      </class> <!-- ExecuteClasses.ExecuteWorkers -->
+    </classes>
+  </test> <!-- Verifying Login function(failed) -->
+</suite> <!-- Failed suite [Live project] -->

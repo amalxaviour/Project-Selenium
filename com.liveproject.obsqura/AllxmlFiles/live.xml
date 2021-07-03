@@ -1,0 +1,33 @@
+<suite name="Live project" parallel="tests" thread-count="3">
+	<test name="Verifying Login function">
+
+		<classes>
+
+			<class name="ExecuteClasses.ExecuteLogin">
+
+			</class>
+			<class name="ExecuteClasses.ExecuteWorkers"></class>
+			
+		</classes>
+
+	</test>
+
+	<test name="verifying Clients Window">
+		<classes>
+
+			<class name="ExecuteClasses.ExecuteClient">
+			</class>
+		</classes>
+
+	</test>
+	<test name="Verifying Visibility of Home pageDrop">
+	<classes>
+	
+	<class name="ExecuteClasses.ExecuteHome"></class>
+	<class name="ExecuteClasses.ExecuteTimeSheet"></class>
+	</classes>
+	</test>
+	
+	
+
+</suite>

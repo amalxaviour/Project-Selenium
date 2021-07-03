@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="7" total="8" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="19754" started-at="2021-07-01T11:04:43Z" finished-at="2021-07-01T11:05:03Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="19754" started-at="2021-07-01T11:04:43Z" finished-at="2021-07-01T11:05:03Z">
+      <class name="ExecuteClasses.ExecuteWorkers">
+        <test-method status="PASS" signature="launchBrowser()[pri:0, instance:ExecuteClasses.ExecuteWorkers@19bb07ed]" name="launchBrowser" is-config="true" duration-ms="6884" started-at="2021-07-01T11:04:43Z" finished-at="2021-07-01T11:04:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method status="PASS" signature="executeDatePicker()[pri:0, instance:ExecuteClasses.ExecuteWorkers@19bb07ed]" name="executeDatePicker" duration-ms="12757" started-at="2021-07-01T11:04:50Z" finished-at="2021-07-01T11:05:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- executeDatePicker -->
+        <test-method status="PASS" signature="closeBrowser(org.testng.ITestResult)[pri:0, instance:ExecuteClasses.ExecuteWorkers@19bb07ed]" name="closeBrowser" is-config="true" duration-ms="95" started-at="2021-07-01T11:05:03Z" finished-at="2021-07-01T11:05:03Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=executeDatePicker status=SUCCESS method=ExecuteWorkers.executeDatePicker()[pri:0, instance:ExecuteClasses.ExecuteWorkers@19bb07ed] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- ExecuteClasses.ExecuteWorkers -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

@@ -1,0 +1,76 @@
+
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Live project multiple browser" parallel="tests" thread-count="3">
+	<test name="Verifying Login function using chrome">
+		<parameter name="browser" value="chrome"></parameter>
+
+		<classes>
+
+			<class name="ExecuteClasses.ExecuteLogin">
+
+			</class>
+
+		</classes>
+
+	</test>
+	<test name="Verifying Login function using edge">
+		<parameter name="browser" value="edge"></parameter>
+
+		<classes>
+
+			<class name="ExecuteClasses.ExecuteLogin">
+
+			</class>
+
+		</classes>
+
+	</test>
+	<test name="Verifying Login function using firefox">
+		<parameter name="browser" value="firefox"></parameter>
+
+		<classes>
+
+			<class name="ExecuteClasses.ExecuteLogin">
+
+			</class>
+
+		</classes>
+
+	</test>
+
+	<test name="verifying Clients Window using chrome">
+		<parameter name="browser" value="chrome">
+		</parameter>
+		<classes>
+
+			<class name="ExecuteClasses.ExecuteClient">
+			</class>
+		</classes>
+
+	</test>
+	<test name="verifying Clients Window using firefox">
+	<parameter name="browser" value="firefox">
+	</parameter>	<classes>
+
+			<class name="ExecuteClasses.ExecuteClient">
+			</class>
+		</classes>
+
+	</test>
+	<test name="Verifying Visibility of Home pageDrop using chrome">
+		<parameter name="browser" value="chrome"></parameter>
+		<classes>
+
+			<class name="ExecuteClasses.ExecuteHome"></class>
+		</classes>
+	</test>
+
+	<test name="Verifying Visibility of Home pageDrop using fire fox">
+		<parameter name="browser" value="firefox"></parameter>
+		<classes>
+
+			<class name="ExecuteClasses.ExecuteHome"></class>
+		</classes>
+	</test>
+
+</suite>
